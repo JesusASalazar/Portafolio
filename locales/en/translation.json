@@ -1,24 +1,25 @@
 {
     "home": {
-        "role": "Desarrollador web",
+        "role": "Web Developer",
         "presentation": {
-            "title": "Sobre mí",
+            "title": "About Me",
             "experience": "Junior",
             "aboutMe": [
-                "Soy Jesús Alejandro Gómez Salazar, un estudiante apasionado por las ciencias aplicadas y teóricas, la práctica deportiva, el razonamiento lógico y la comunicación. Actualmente curso la Formación Profesional de Grado Superior (FPGS) en Desarrollo de Aplicaciones Web, trabajando con Java y Spring, especializado en Spring Data JPA y React. Busco activamente nuevas oportunidades laborales donde pueda seguir creciendo profesionalmente y aplicar mis conocimientos con compromiso y responsabilidad.",
-                "A lo largo de mi trayectoria académica he sido reconocido en varias ocasiones por mis logros, participando en concursos tanto municipales como regionales. Una de las experiencias más significativas de mi etapa estudiantil ha sido mi participación activa en un club de debate, donde desarrollé habilidades avanzadas de oratoria y dominio del lenguaje, obteniendo múltiples reconocimientos y diplomas. Estas vivencias potenciaron mis capacidades comunicativas, así como mi confianza y liderazgo."
+                "I’m Jesús Alejandro Gómez Salazar, a student passionate about applied and theoretical sciences, sports, logical development, and communication skills. I am currently studying a Higher Vocational Training program (FPGS) in Web Application Development, working with Java and Spring, with a specialization in Spring Data JPA and React. I am actively seeking new job opportunities where I can continue growing professionally and apply my knowledge with commitment and responsibility.",
+                "Throughout my academic path, I have been recognized several times for my achievements, participating in municipal and regional competitions. One of the most meaningful experiences of my student life has been my active involvement in a debate club, where I developed advanced communication and public speaking skills—abilities that earned me multiple awards and certificates. These experiences strengthened not only my communication abilities but also my confidence and leadership."
             ],
-            "alt": "Foto personal"
+            "alt": "Personal photo"
         },
         "technologies": {
-            "title": "Habilidades",
+            "title": "Skills",
             "stack": "Stacks",
-            "framework": "Frameworks y librerías",
-            "tools": "Herramientas y tecnologías"
+            "framework": "Frameworks and Libraries",
+            "tools": "Tools and Technologies"
         }
     },
     "download": "Download my CV",
     "studies": {
+        "title": "Studies",
         "webDev": {
             "title": "FPGS - Web Application Development",
             "period": "2024 - 2026",
@@ -37,12 +38,15 @@
         }
     },
     "experience": {
+        "title": "Experience",
         "eviden": {
             "position": "Junior Programmer in Dual Training",
             "company": "Eviden",
             "period": "February to June 2025",
             "location": "Kansas City",
-            "responsibilities": "During my dual training internship, I participated in development projects using Spring Boot, where I learned to configure applications, work with controllers and services, and connect the backend to databases using Spring Data JPA. I also got involved in creating REST endpoints and understanding the structure of a real-world project.",
+            "responsibilities": [
+                "During my dual training internship, I participated in development projects using Spring Boot, where I learned to configure applications, work with controllers and services, and connect the backend to databases using Spring Data JPA. I also got involved in creating REST endpoints and understanding the structure of a real-world project."
+            ],
             "skills": "This experience allowed me to build a solid foundation in Spring Boot, improve my programming logic, and become familiar with the development lifecycle in professional environments."
         }
     }
