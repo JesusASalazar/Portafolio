@@ -1,0 +1,26 @@
+.download-cv-btn {
+    background-color: var(--cream);
+    color: var(--green);
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.download-cv-btn:hover {
+    background-color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,49 @@
+{
+    "home": {
+        "role": "Desarrollador web",
+        "presentation": {
+            "title": "Sobre mí",
+            "experience": "Junior",
+            "aboutMe": [
+                "Soy Jesús Alejandro Gómez Salazar, un estudiante apasionado por las ciencias aplicadas y teóricas, la práctica deportiva, el razonamiento lógico y la comunicación. Actualmente curso la Formación Profesional de Grado Superior (FPGS) en Desarrollo de Aplicaciones Web, trabajando con Java y Spring, especializado en Spring Data JPA y React. Busco activamente nuevas oportunidades laborales donde pueda seguir creciendo profesionalmente y aplicar mis conocimientos con compromiso y responsabilidad.",
+                "A lo largo de mi trayectoria académica he sido reconocido en varias ocasiones por mis logros, participando en concursos tanto municipales como regionales. Una de las experiencias más significativas de mi etapa estudiantil ha sido mi participación activa en un club de debate, donde desarrollé habilidades avanzadas de oratoria y dominio del lenguaje, obteniendo múltiples reconocimientos y diplomas. Estas vivencias potenciaron mis capacidades comunicativas, así como mi confianza y liderazgo."
+            ],
+            "alt": "Foto personal"
+        },
+        "technologies": {
+            "title": "Habilidades",
+            "stack": "Stacks",
+            "framework": "Frameworks y librerías",
+            "tools": "Herramientas y tecnologías"
+        }
+    },
+    "download": "Download my CV",
+    "studies": {
+        "webDev": {
+            "title": "FPGS - Web Application Development",
+            "period": "2024 - 2026",
+            "institution": "I.E.S. Sotero Hernández",
+            "content": [
+                "Equivalent to an Advanced Vocational Training program focused on developing web applications using Java, Spring, and React."
+            ]
+        },
+        "baccalaureate": {
+            "title": "High School - Mixed Health Sciences",
+            "period": "2022 - 2024",
+            "institution": "I.E.S. Nervión",
+            "content": [
+                "High school studies combining Mathematics II, Physics, Chemistry, Biology, and Applied Anatomy."
+            ]
+        }
+    },
+    "experience": {
+        "eviden": {
+            "position": "Junior Programmer in Dual Training",
+            "company": "Eviden",
+            "period": "February to June 2025",
+            "location": "Kansas City",
+            "responsibilities": "During my dual training internship, I participated in development projects using Spring Boot, where I learned to configure applications, work with controllers and services, and connect the backend to databases using Spring Data JPA. I also got involved in creating REST endpoints and understanding the structure of a real-world project.",
+            "skills": "This experience allowed me to build a solid foundation in Spring Boot, improve my programming logic, and become familiar with the development lifecycle in professional environments."
+        }
+    }
+}

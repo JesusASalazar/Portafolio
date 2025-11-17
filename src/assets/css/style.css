@@ -1,0 +1,21 @@
+@import url('./var.css');
+@import url('./layout/header.css');
+@import url('./layout/nav.css');
+@import url('./layout/footer.css');
+@import url('./layout/card.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: var(--background-green);
+    color: var(--text-main);
+    font-family: 'Arimo', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    text-transform: uppercase;
+}

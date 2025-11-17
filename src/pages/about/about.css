@@ -1,0 +1,143 @@
+/* Experience Card */
+#experience-title {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    background: rgba(211, 210, 210, 0.3);
+    text-transform: uppercase;
+    padding: 8px;
+    width: 40%;
+}
+
+#experience {
+    padding: 0;
+}
+
+#experience .container {
+    backdrop-filter: blur(4px);
+    height: 100%;
+    width: 100%;
+}
+
+/* Experience content styles */
+.experience-container {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.experience-main {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+    width: 50%;
+}
+
+.job-header {
+    margin-bottom: 12px;
+}
+
+.job-title {
+    margin: 0 0 4px 0;
+    color: var(--white);
+    font-size: 1.2em;
+}
+
+.job-company {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.job-period-location {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.job-period {
+    color: var(--light-gray);
+    font-style: italic;
+}
+
+.job-location {
+    color: var(--light-gray);
+    font-style: italic;
+}
+
+.job-responsibilities {
+    margin-bottom: 12px;
+}
+
+.job-skills {
+    font-style: italic;
+    color: var(--light-gray);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .experience-container {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .job-period-location {
+        flex-direction: column;
+        gap: 4px;
+    }
+}
+
+/* Studies Card */
+#studies-title {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    background: rgba(211, 210, 210, 0.3);
+    text-transform: uppercase;
+    padding: 8px;
+    width: 40%;
+}
+
+#studies {
+    padding: 0;
+}
+
+#studies .container {
+    backdrop-filter: blur(4px);
+    height: 100%;
+    width: 100%;
+}
+
+/* Studies content styles */
+.studies-container {
+    padding: 20px;
+}
+
+.study-main {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.study-main:last-child {
+    margin-bottom: 0;
+}
+
+.institution h3 {
+    margin: 0 0 8px 0;
+    color: var(--white);
+    font-size: 1.2em;
+}
+
+.study-period {
+    color: var(--light-gray);
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.study-institution {
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 12px;
+}

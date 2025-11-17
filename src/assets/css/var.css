@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+:root {
+  /* --- Colores principales --- */
+  --burdeo: #840C0B;      /* rgba(107, 15, 26, 1) - Primario */
+  --blue: #001D51;    /* rgba(10, 26, 47, 1) - Secundario */
+  --green: #1F3B2C;      /* rgba(31, 59, 44, 1) - Acento */
+  --cream: #F0E7D5;        /* rgba(211, 199, 179, 1) - Neutro */
+  --white: #F8F3E7;      /* rgba(248, 243, 231, 1) - Blanco cremoso */
+  --black: #121418;        /* rgba(18, 20, 24, 1) - Negro suave  */
+
+  --burdeo-80: rgba(107, 15, 26, 0.8);
+  --blue-80: rgba(10, 26, 47, 0.4);
+  --green-60: rgba(31, 59, 44, 0.6);
+  --cream-80: rgba(248, 243, 231, 0.8);
+  --black-80: rgba(18, 20, 24, 0.8);
+
+  --background-blue: var(--blue);
+  --background-green: var(--green);
+  --background-light: var(--white);
+  --text-main: var(--white);
+  --text-dark: var(--blue);
+
+  
+}
