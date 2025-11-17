@@ -16,7 +16,7 @@ export const About = () => {
   return (
     <Layout id="studies" backButton={true}>
       <ContentCard
-        content="var(--blue)"
+        content="var(--green)"
         title={"Experiencia"}
         main={
           <div className="experience-container">

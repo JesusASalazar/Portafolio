@@ -18,7 +18,7 @@ export const LanguageSelector = () => {
 
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
 
-  return (
+  return (  
     <section className="language-selector">
       <button 
         className="language-selector-trigger"

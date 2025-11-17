@@ -1,15 +1,15 @@
 import React from 'react';
-import download from '../../assets/icons/download.svg'
+import download from '../../assets/icons/download.svg';
 import { useTranslation } from 'react-i18next';
-import '../../assets/css/ui/download-btn.css'
+import '../../assets/css/ui/download-btn.css';
 
 export const DownloadCVButton = () => {
-    const { t, i18n } = useTranslation();
-    const changeLanguage = (lng) => i18n.changeLanguage(lng);
+    const { t } = useTranslation();
+
     return (
-        <a href="/cv.pdf" download>
+        <a href="/Portafolio/cv.pdf" download>
             <button className="download-cv-btn">
-                <img src={download} alt="" />{t('download')}
+                <img src={download} alt="" /> {t('download')}
             </button>
         </a>
     );
