@@ -19,6 +19,7 @@
     },
     "download": "Descarga mi CV",
     "studies": {
+        "title": "Estudios",
         "webDev": {
             "title": "FPGS - Desarrollo de Aplicaciones Web",
             "period": "2024 - 2026",
@@ -37,12 +38,15 @@
         }
     },
     "experience": {
+        "title": "Experiencia",
         "eviden": {
             "position": "Programador Junior en formación dual",
             "company": "Eviden",
             "period": "Febrero a Junio 2025",
             "location": "Kansas City",
-            "responsibilities": "Durante mis prácticas duales participé en proyectos de desarrollo utilizando Spring Boot, donde aprendí a configurar aplicaciones, trabajar con controladores y servicios, y conectar el backend con bases de datos mediante Spring Data JPA. También me involucré en la creación de endpoints REST y en la comprensión de la estructura de un proyecto real.",
+            "responsibilities": [
+                "Durante mis prácticas duales participé en proyectos de desarrollo utilizando Spring Boot, donde aprendí a configurar aplicaciones, trabajar con controladores y servicios, y conectar el backend con bases de datos mediante Spring Data JPA. También me involucré en la creación de endpoints REST y en la comprensión de la estructura de un proyecto real."
+            ],
             "skills": "Esta experiencia me permitió adquirir una base sólida en el uso de Spring Boot, mejorar mi lógica de programación y familiarizarme con el ciclo de vida del desarrollo en entornos profesionales."
         }
     }

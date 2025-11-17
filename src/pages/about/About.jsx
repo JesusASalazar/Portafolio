@@ -17,7 +17,7 @@ export const About = () => {
     <Layout id="studies" backButton={true}>
       <ContentCard
         content="var(--green)"
-        title={"Experiencia"}
+        title={tExperience("title")}
         main={
           <div className="experience-container">
             {experienceIds.map((expId, idx) => {
@@ -46,7 +46,7 @@ export const About = () => {
       />
       <ContentCard
         content="var(--blue)"
-        title={"Estudios"}
+        title={tStudies("title")}
         main={
           <div className="studies-container">
             {studyIds.map((studyId, idx) => {

@@ -132,7 +132,6 @@
 
 .tech-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 0.75rem;
     width: 100%;
 }
@@ -183,7 +182,6 @@
 .tech-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* Fuerza 5 columnas */
     gap: 0.75rem;
     width: 100%;
 }
